@@ -2,7 +2,7 @@ import github from './images/github-mark.svg';
 import linkedin from './images/linkedin-mark.svg';
 import youtube from './images/youtube-mark.svg';
 import './App.css';
-import { Route, Routes, BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
+import { Route, Routes, HashRouter } from 'react-router-dom'; // Change to HashRouter
 import ProjectDetail from './components/ProjectDetail';
 
 // CUSTOM
@@ -14,8 +14,8 @@ import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
-    // Wrap the whole app in BrowserRouter and set the basename
-    <BrowserRouter basename="/website">
+    // Wrap the whole app in HashRouter
+    <HashRouter>
       <div className="App">
         <Navbar />
         <div className="container">
@@ -23,9 +23,9 @@ function App() {
             <Route>
               <Route path="/"         element={ <Home />      }/>
               <Route path="/Projects"  element={ <Projects />  }/>
-              <Route path="/projects/:id" element={<ProjectDetail />} /> {/* Add this line */}
-              <Route path="/WorkExperience"    element={ <WorkExperience />     }/>
-              <Route path="/About"    element={ <About />     }/>
+              <Route path="/projects/:id" element={<ProjectDetail />} />
+              <Route path="/WorkExperience" element={ <WorkExperience /> } />
+              <Route path="/About" element={ <About /> } />
             </Route>
           </Routes>
         </div>
@@ -63,7 +63,7 @@ function App() {
           </p>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
