@@ -1,0 +1,118 @@
+.about-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center; /* Align photo and description horizontally */
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Adjust based on desired max width */
+    margin-bottom: 20px; /* Space between content and timeline */
+  }
+  
+  .about-photo {
+    flex: 1;
+    padding-right: 20px; /* Space between photo and description */
+  }
+  
+  .photo {
+    width: 100%;
+    max-width: 300px; /* Adjust to fit the size of your photo */
+    height: auto;
+    border-radius: 5%;
+  }
+  
+  .about-description {
+    flex: 2;
+    padding-left: 20px; /* Space between photo and description */
+  }
+  
+  .about-timeline {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  
+  .about-timeline ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-timeline li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .about-timeline h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .timeline-icon {
+    width: 100%; /* Make the image take up the full size of the circle */
+    height: 100%; /* Make sure the image's height matches the circle */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the image fills the circle properly without distortion */
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the icons */
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column; /* Stack the icon and text vertically */
+    align-items: center; /* Center them horizontally */
+  }
+  
+  .github-svg,
+  .linkedin-svg,
+  .youtube-svg {
+    width: 60px; /* Set a consistent size for the icons */
+    height: 60px;
+    margin-bottom: 8px; /* Space between the icon and the text */
+    padding: 5px;
+}
+
+  .timeline-icon-square {
+    width: 100%; /* Make the image take up the full size of the circle */
+    height: 100%; /* Make sure the image's height matches the circle */
+    border-radius: 50%; /* Make it circular */
+    object-fit: contain; /* Ensure the image fills the circle properly without distortion */
+  }
+  
+  .icon-container p {
+    margin: 0;
+    font-size: 14px; /* Adjust text size */
+    color: #000; /* Set text color */
+    font-weight: bold; /* Optional: make the text bold */
+  }
+
+/* Customize the vertical line between elements */
+.vertical-timeline::before {
+    background: #333; /* Color of the line */
+    width: 4px; /* Thickness of the line */
+    left: 50%; /* Centered on the timeline */
+    transform: translateX(-50%);
+  }
+  
+  /* Customize the line between timeline elements */
+  .vertical-timeline-element-content {
+    box-shadow: none; /* Optional: removes box shadow around content */
+    padding: 15px; /* Adjust padding */
+    background-color: #f5f5f5; /* Background color for content box */
+    border-radius: 8px; /* Rounds the content box corners */
+  }
+  
+  /* Optional: customize the arrow that connects to the timeline */
+  .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
+    border-right: 7px solid #b70b0b; /* Color of the arrow pointing to the line */
+  }
+  
