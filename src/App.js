@@ -1,9 +1,10 @@
-import github from './images/github-mark.svg';
-import linkedin from './images/linkedin-mark.svg';
-import youtube from './images/youtube-mark.svg';
+import github from './images/github-mark.svg'
+import linkedin from './images/linkedin-mark.svg'
+import youtube from './images/youtube-mark.svg'
 import './App.css';
-import { Route, Routes, HashRouter } from 'react-router-dom'; // Change to HashRouter
+import { Route, Routes } from 'react-router-dom';
 import ProjectDetail from './components/ProjectDetail';
+
 
 // CUSTOM
 import Home from './components/Home';
@@ -14,22 +15,21 @@ import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
-    // Wrap the whole app in HashRouter
-    <HashRouter>
-      <div className="App">
-        <Navbar />
-        <div className="container">
-          <Routes>
-            <Route>
-              <Route path="/"         element={ <Home />      }/>
-              <Route path="/Projects"  element={ <Projects />  }/>
-              <Route path="/projects/:id" element={<ProjectDetail />} />
-              <Route path="/WorkExperience" element={ <WorkExperience /> } />
-              <Route path="/About" element={ <About /> } />
-            </Route>
-          </Routes>
-        </div>
-        <div>
+    <div className="App">
+      <Navbar />
+      <div className="container">
+
+        <Routes>
+          <Route>
+            <Route path="/"         element={ <Home />      }/>
+            <Route path="/Projects"  element={ <Projects />  }/>
+            <Route path="/projects/:id" element={<ProjectDetail />} />
+            <Route path="/WorkExperience"    element={ <WorkExperience />     }/>
+            <Route path="/About"    element={ <About />     }/>
+          </Route>
+        </Routes>
+      </div>
+      <div>
           <a
             className="App-link"
             href="https://github.com/pbrush"
@@ -60,10 +60,9 @@ function App() {
         <div>
           <p>
             &copy; 2024 Phillip Brush | Contact: pdbrush33@comcast.net or (978) 831-7440
-          </p>
+            </p>
         </div>
-      </div>
-    </HashRouter>
+    </div>
   );
 }
 
