@@ -54,7 +54,7 @@ const projects = [
     description: 'Description of project two.', 
     date: 'Jul & Nov 2024', 
     resources: [ardupilot], 
-    tags: ['drones', 'electronics'] 
+    tags: ['drones', 'electronics', 'ardupilot']
   },
   { 
     id: 3, 
