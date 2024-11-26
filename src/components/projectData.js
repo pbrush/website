@@ -45,7 +45,7 @@ const projects = [
     description: 'Description of project two.', 
     date: 'May 2024 - Present', 
     resources: [python, tensorflow, cpp, ros2, altium, solidworks_cube], // ros, arduino, tensorflow
-    tags: ['drones', 'electronics'] 
+    tags: ['drones', 'electronics', 'Machine Learning', 'Perception'] 
   },
   { 
     id: 2, 
