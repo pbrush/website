@@ -1,10 +1,9 @@
-import github from './images/github-mark.svg'
-import linkedin from './images/linkedin-mark.svg'
-import youtube from './images/youtube-mark.svg'
+import github from './images/github-mark.svg';
+import linkedin from './images/linkedin-mark.svg';
+import youtube from './images/youtube-mark.svg';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
 import ProjectDetail from './components/ProjectDetail';
-
 
 // CUSTOM
 import Home from './components/Home';
@@ -15,21 +14,22 @@ import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className="container">
-
-        <Routes>
-          <Route>
-            <Route path="/"         element={ <Home />      }/>
-            <Route path="/Projects"  element={ <Projects />  }/>
-            <Route path="/projects/:id" element={<ProjectDetail />} /> {/* Add this line */}
-            <Route path="/WorkExperience"    element={ <WorkExperience />     }/>
-            <Route path="/About"    element={ <About />     }/>
-          </Route>
-        </Routes>
-      </div>
-      <div>
+    // Wrap the whole app in BrowserRouter and set the basename
+    <BrowserRouter basename="/website">
+      <div className="App">
+        <Navbar />
+        <div className="container">
+          <Routes>
+            <Route>
+              <Route path="/"         element={ <Home />      }/>
+              <Route path="/Projects"  element={ <Projects />  }/>
+              <Route path="/projects/:id" element={<ProjectDetail />} /> {/* Add this line */}
+              <Route path="/WorkExperience"    element={ <WorkExperience />     }/>
+              <Route path="/About"    element={ <About />     }/>
+            </Route>
+          </Routes>
+        </div>
+        <div>
           <a
             className="App-link"
             href="https://github.com/pbrush"
@@ -60,9 +60,10 @@ function App() {
         <div>
           <p>
             &copy; 2024 Phillip Brush | Contact: pdbrush33@comcast.net or (978) 831-7440
-            </p>
+          </p>
         </div>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
