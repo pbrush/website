@@ -72,7 +72,7 @@ const projects = [
     description: 'Implementation of PID and MPC controllers for a drone', 
     date: 'Oct 2024 - Present', 
     resources: [matlab], //matlab
-    tags: ['robotics', 'engineering'] 
+    tags: ['robotics', 'engineering', 'drones'] 
   },
   { 
     id: 5, 
