@@ -32,7 +32,7 @@ export default function About() {
         {/* EDUCATION */}
         <div className="about-desccription">
           <h2>Education</h2>
-          <p2>Here is my education</p2>
+          <p2>2020-2024: B.S., Worcester Polytechnic Institute</p2>
         </div>
         {/* AWARDS */}
         <div>
