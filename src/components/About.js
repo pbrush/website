@@ -3,6 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import './About.css'; // Ensure you create and link the About.css file
 import myPhoto from '../images/me.jpg'; // Replace with your image path
+import myPhoto2 from '../images/me2.jpg';
 import wpi_logo from '../images/wpi_logo.png';
 import pear_logo from '../images/pear_logo.png';
 import alert_logo from '../images/alert_logo.png';
@@ -15,7 +16,7 @@ export default function About() {
     <div className="about-container">
       <div className="about-content">
         <div className="about-photo">
-          <img src={myPhoto} alt="No work" className="photo" />
+          <img src={myPhoto2} alt="No work" className="photo" />
         </div>
 
         {/* DESCRIPTION */}
