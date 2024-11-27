@@ -17,6 +17,7 @@ function ProjectDetail() {
         <div>
           <h2>{project.title}</h2>
           <p> This page is different from</p>
+          <p> Please let the hash router work</p>
           <img src={project.image} alt={project.title} className="project-detail-image" />
           <p><strong>Description:</strong> {project.description}</p>
           <p><strong>Date:</strong> {project.date}</p>
