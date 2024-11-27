@@ -7,7 +7,7 @@ import me from "../images/me.jpg";
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <Link to="/website/" className="site-title">
+      <Link to="/" className="site-title">
         <img src={me} alt="No load :(" className="navbar-image" />
         <p>Phillip Brush</p>
       </Link>
