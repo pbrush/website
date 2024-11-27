@@ -46,11 +46,11 @@ function ProjectDetail() {
           <p>{project.description}</p>
           <p>{project.date}</p>
           <h3>Tags</h3>
-          <ul>
+          {/* <ul>
             {project.tags.map((tag, index) => (
               <li key={index}>{tag}</li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       )}
     </div>

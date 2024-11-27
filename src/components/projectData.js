@@ -19,6 +19,8 @@ import ind_robot_arm from '../images/abb_irb1600.png';
 import rbe3002 from '../images/rbe3002.png';
 import rbe3001 from '../images/rbe3001.png';
 import rbe2001 from '../images/rbe2001.png';
+import rbe501 from '../images/rbe501_app.png'
+import rbe501_cropped from '../images/rbe501_app_cropped.png'
 import shapes from '../images/shapes.png';
 import sfis from '../images/sfis.png';
 import fpv from '../images/fpvdrone.png';
@@ -36,6 +38,7 @@ import docker from '../images/docker.svg';
 import docker_words from '../images/docker_logo_words.png';
 import betaflight from '../images/betaflight.png';
 import drone_lineage from '../images/Drone_lineage.JPG';
+
 
 const projects = [
   { 
@@ -94,7 +97,7 @@ const projects = [
   },
     { 
     id: 7, 
-    image: bee, 
+    image: rbe501_cropped, 
     title: 'Dynamics Arm Simulator', 
     description: 'MATLAB App simulating robot arm dynamics with RNE', 
     date: 'April 2024 - May 2024', 

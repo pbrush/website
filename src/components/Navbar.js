@@ -12,10 +12,10 @@ export default function Navbar() {
         <p>Phillip Brush</p>
       </Link>
       <ul>
-        <CustomLink to="/website/"> Home </CustomLink>
-        <CustomLink to="/website/Projects"> Projects </CustomLink>
-        <CustomLink to="/website/WorkExperience"> Work Experience </CustomLink>
-        <CustomLink to="/website/About"> About </CustomLink>
+        <CustomLink to="/"> Home </CustomLink>
+        <CustomLink to="/Projects"> Projects </CustomLink>
+        <CustomLink to="/WorkExperience"> Work Experience </CustomLink>
+        <CustomLink to="/About"> About </CustomLink>
       </ul>
     </nav>
   );

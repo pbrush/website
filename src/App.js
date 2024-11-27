@@ -2,9 +2,10 @@ import github from './images/github-mark.svg'
 import linkedin from './images/linkedin-mark.svg'
 import youtube from './images/youtube-mark.svg'
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Router } from 'react-router-dom';
 import ProjectDetail from './components/ProjectDetail';
-
+import ReactGA from 'react-ga';
+import { useEffect } from 'react';
 
 // CUSTOM
 import Home from './components/Home';
@@ -18,16 +19,17 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="container">
-
-        <Routes>
-          <Route>
-            <Route path="/website/"         element={ <Home />      }/>
-            <Route path="/website/Projects"  element={ <Projects />  }/>
-            <Route path="/website/projects/:id" element={<ProjectDetail />} />
-            <Route path="/website/WorkExperience"    element={ <WorkExperience />     }/>
-            <Route path="/website/About"    element={ <About />     }/>
-          </Route>
-        </Routes>
+        {/* <Router basename="/website"> */}
+          <Routes>
+            <Route>
+              <Route path="/"         element={ <Home />      }/>
+              <Route path="/Projects"  element={ <Projects />  }/>
+              <Route path="/projects/:id" element={<ProjectDetail />} />
+              <Route path="/WorkExperience"    element={ <WorkExperience />     }/>
+              <Route path="/About"    element={ <About />     }/>
+            </Route>
+          </Routes>
+        {/* </Router> */}
       </div>
       <div>
           <a
