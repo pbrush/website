@@ -97,3 +97,10 @@
     border-radius: 5px;
   }
   
+  .project-page-image {
+    width: 35vw;
+    height: 35vw; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    border: none; /* Remove any border */
+  }
+  

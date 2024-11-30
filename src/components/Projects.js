@@ -17,7 +17,7 @@ function Projects() {
     return matchesQuery && matchesTag;
   });
 
-  const allTags = Array.from(new Set(projects.flatMap(project => project.tags)));
+  const allTags = Array.from(new Set(projects.flatMap(project => project.tags))).sort();
 
   return (
     <div className="projects">

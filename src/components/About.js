@@ -42,14 +42,12 @@ export default function About() {
         </div>
       </div>
 
-
-
       {/* HYPERLINKS AND ICONS */}
 
       <div className="social-links">
         <a
           className="App-link"
-          href="https://drive.google.com/file/d/1Ss7VuQoovAu5DO2z2rEYQ3q-nFbhdn6C/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1min2P8eEyWQh9XjyvpaaNqKVR5xH-pSJ/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
         >

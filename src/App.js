@@ -19,17 +19,15 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="container">
-        {/* <Router basename="/website"> */}
-          <Routes>
-            <Route>
-              <Route path="/"         element={ <Home />      }/>
-              <Route path="/Projects"  element={ <Projects />  }/>
-              <Route path="/projects/:id" element={<ProjectDetail />} />
-              <Route path="/WorkExperience"    element={ <WorkExperience />     }/>
-              <Route path="/About"    element={ <About />     }/>
-            </Route>
-          </Routes>
-        {/* </Router> */}
+        <Routes>
+          <Route>
+            <Route path="/"         element={ <Home />      }/>
+            <Route path="/Projects"  element={ <Projects />  }/>
+            <Route path="/projects/:id" element={<ProjectDetail />} />
+            <Route path="/WorkExperience"    element={ <WorkExperience />     }/>
+            <Route path="/About"    element={ <About />     }/>
+          </Route>
+        </Routes>
       </div>
       <div>
           <a
@@ -43,7 +41,7 @@ function App() {
 
           <a
             className="App-link"
-            href="https://github.com/pbrush"
+            href="https://www.linkedin.com/in/phillipdbrush/"
             target="_blank"
             rel="noopener noreferrer"
           >
