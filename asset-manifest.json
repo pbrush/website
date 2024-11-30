@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.9d4ba33d.css",
-    "main.js": "/website/static/js/main.d17a55a5.js",
+    "main.css": "/website/static/css/main.b279ac15.css",
+    "main.js": "/website/static/js/main.fe7b708d.js",
     "static/js/453.41811d64.chunk.js": "/website/static/js/453.41811d64.chunk.js",
     "static/media/unity.JPG": "/website/static/media/unity.b90688c83b7831f810ab.JPG",
     "static/media/Drone_lineage.JPG": "/website/static/media/Drone_lineage.48605f338759fdbaa18a.JPG",
     "static/media/cubeswarm.jpg": "/website/static/media/cubeswarm.a157d7e9f34bb33517ab.jpg",
     "static/media/abb_irb1600.png": "/website/static/media/abb_irb1600.2011c735df779744019d.png",
+    "static/media/quadsim_combined.gif": "/website/static/media/quadsim_combined.1a026a424fbe52fb302a.gif",
     "static/media/rbe3001.png": "/website/static/media/rbe3001.90e9f0697cf042984708.png",
     "static/media/voltaic.png": "/website/static/media/voltaic.baa0925cab5fd8b36aa0.png",
     "static/media/cropped_bee.png": "/website/static/media/cropped_bee.c3d41965763e693457b5.png",
@@ -28,6 +29,7 @@
     "static/media/rbe2001.png": "/website/static/media/rbe2001.086943e0a95343713d95.png",
     "static/media/huron_alone.png": "/website/static/media/huron_alone.95a447e581f49e9420f7.png",
     "static/media/shapes.png": "/website/static/media/shapes.08b5cdfb28546e20b9a4.png",
+    "static/media/scene_builder_logo.png": "/website/static/media/scene_builder_logo.06f2b229320e56e2fdf1.png",
     "static/media/ros2.png": "/website/static/media/ros2.9bb07ff4f49169b86b7d.png",
     "static/media/pbe.png": "/website/static/media/pbe.569f62f835359102b9a4.png",
     "static/media/502.png": "/website/static/media/502.03747d88883585b54175.png",
@@ -40,11 +42,13 @@
     "static/media/OpenCV_logo.png": "/website/static/media/OpenCV_logo.79908dddac6f5264bb84.png",
     "static/media/resume.png": "/website/static/media/resume.a61c1df0cb24fb2b5848.png",
     "static/media/Ros_logo.png": "/website/static/media/Ros_logo.f0b80c61fd0824d1a345.png",
+    "static/media/fusion_logo.png": "/website/static/media/fusion_logo.92e15b0dbc4520f0c916.png",
     "static/media/SolidWorks-Logo.jpg": "/website/static/media/SolidWorks-Logo.d09bc821fc0c7e5fbe04.jpg",
     "static/media/matlab_logo.gif": "/website/static/media/matlab_logo.1b748654adfd6a6b18d6.gif",
     "static/media/betaflight.png": "/website/static/media/betaflight.fe81f46d1471d1e1846d.png",
     "static/media/Gazebo_logo.png": "/website/static/media/Gazebo_logo.8d105ed8dc6e79e67876.png",
     "static/media/docker_logo_words.png": "/website/static/media/docker_logo_words.f0b055634ce4ca3cebb9.png",
+    "static/media/blender_logo.png": "/website/static/media/blender_logo.59d4e3bb4de1829ca752.png",
     "static/media/tensorflow.png": "/website/static/media/tensorflow.ac287b572af7fdd79a53.png",
     "static/media/java.svg": "/website/static/media/java.8ee5f9813e1ebcd16f2a36152b8dc856.svg",
     "static/media/python.svg": "/website/static/media/python.62e8a4442709e711eb8c89041804c775.svg",
@@ -54,12 +58,12 @@
     "index.html": "/website/index.html",
     "static/media/linkedin-mark.svg": "/website/static/media/linkedin-mark.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/youtube-mark.svg": "/website/static/media/youtube-mark.cb1a56785579560cb80bf1a5dc64c713.svg",
-    "main.9d4ba33d.css.map": "/website/static/css/main.9d4ba33d.css.map",
-    "main.d17a55a5.js.map": "/website/static/js/main.d17a55a5.js.map",
+    "main.b279ac15.css.map": "/website/static/css/main.b279ac15.css.map",
+    "main.fe7b708d.js.map": "/website/static/js/main.fe7b708d.js.map",
     "453.41811d64.chunk.js.map": "/website/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d4ba33d.css",
-    "static/js/main.d17a55a5.js"
+    "static/css/main.b279ac15.css",
+    "static/js/main.fe7b708d.js"
   ]
 }
