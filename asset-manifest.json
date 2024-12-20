@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.b279ac15.css",
-    "main.js": "/website/static/js/main.fe7b708d.js",
+    "main.js": "/website/static/js/main.6090aa6f.js",
     "static/js/453.41811d64.chunk.js": "/website/static/js/453.41811d64.chunk.js",
     "static/media/unity.JPG": "/website/static/media/unity.b90688c83b7831f810ab.JPG",
     "static/media/Drone_lineage.JPG": "/website/static/media/Drone_lineage.48605f338759fdbaa18a.JPG",
@@ -44,6 +44,7 @@
     "static/media/Ros_logo.png": "/website/static/media/Ros_logo.f0b80c61fd0824d1a345.png",
     "static/media/fusion_logo.png": "/website/static/media/fusion_logo.92e15b0dbc4520f0c916.png",
     "static/media/SolidWorks-Logo.jpg": "/website/static/media/SolidWorks-Logo.d09bc821fc0c7e5fbe04.jpg",
+    "static/media/mp_proj_plchdr.png": "/website/static/media/mp_proj_plchdr.c39d3a07118bd4a260a6.png",
     "static/media/matlab_logo.gif": "/website/static/media/matlab_logo.1b748654adfd6a6b18d6.gif",
     "static/media/betaflight.png": "/website/static/media/betaflight.fe81f46d1471d1e1846d.png",
     "static/media/Gazebo_logo.png": "/website/static/media/Gazebo_logo.8d105ed8dc6e79e67876.png",
@@ -59,11 +60,11 @@
     "static/media/linkedin-mark.svg": "/website/static/media/linkedin-mark.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/youtube-mark.svg": "/website/static/media/youtube-mark.cb1a56785579560cb80bf1a5dc64c713.svg",
     "main.b279ac15.css.map": "/website/static/css/main.b279ac15.css.map",
-    "main.fe7b708d.js.map": "/website/static/js/main.fe7b708d.js.map",
+    "main.6090aa6f.js.map": "/website/static/js/main.6090aa6f.js.map",
     "453.41811d64.chunk.js.map": "/website/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b279ac15.css",
-    "static/js/main.fe7b708d.js"
+    "static/js/main.6090aa6f.js"
   ]
 }
