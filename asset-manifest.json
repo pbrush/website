@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.b279ac15.css",
-    "main.js": "/website/static/js/main.4d0b9cd7.js",
-    "static/js/453.41811d64.chunk.js": "/website/static/js/453.41811d64.chunk.js",
+    "main.css": "/website/static/css/main.28c776c1.css",
+    "main.js": "/website/static/js/main.215fabce.js",
+    "static/js/453.052877a7.chunk.js": "/website/static/js/453.052877a7.chunk.js",
     "static/media/unity.JPG": "/website/static/media/unity.b90688c83b7831f810ab.JPG",
     "static/media/Drone_lineage.JPG": "/website/static/media/Drone_lineage.48605f338759fdbaa18a.JPG",
     "static/media/cubeswarm.jpg": "/website/static/media/cubeswarm.a157d7e9f34bb33517ab.jpg",
@@ -25,7 +25,6 @@
     "static/media/550_proj3_1.png": "/website/static/media/550_proj3_1.45014bc118a6e8ed85bd.png",
     "static/media/rbe501_app_cropped.png": "/website/static/media/rbe501_app_cropped.9f6b81d4c087cee2c1c8.png",
     "static/media/pear_logo.png": "/website/static/media/pear_logo.2f6c7cfa10e0a3f21f2c.png",
-    "static/media/vio_coming_soon.png": "/website/static/media/vio_coming_soon.5535520b3549ed24da1e.png",
     "static/media/ardu_logo_dark.png": "/website/static/media/ardu_logo_dark.6e41eef81ca50585d221.png",
     "static/media/rbe2001.png": "/website/static/media/rbe2001.086943e0a95343713d95.png",
     "static/media/huron_alone.png": "/website/static/media/huron_alone.95a447e581f49e9420f7.png",
@@ -39,15 +38,12 @@
     "static/media/Arduino_Logo.png": "/website/static/media/Arduino_Logo.29ed30bdb64e59a0e17f.png",
     "static/media/gesture_ds.png": "/website/static/media/gesture_ds.7e4612d97bc89e270fbe.png",
     "static/media/altium.png": "/website/static/media/altium.3c2c24f104a97f40748c.png",
-    "static/media/sfm.png": "/website/static/media/sfm.7f271915d6d398799a4b.png",
     "static/media/PyTorch_logo.png": "/website/static/media/PyTorch_logo.ebaaea9976fe15a338f2.png",
-    "static/media/vio.png": "/website/static/media/vio.37b6f6bd310ae24d15a7.png",
     "static/media/OpenCV_logo.png": "/website/static/media/OpenCV_logo.79908dddac6f5264bb84.png",
     "static/media/resume.png": "/website/static/media/resume.a61c1df0cb24fb2b5848.png",
     "static/media/Ros_logo.png": "/website/static/media/Ros_logo.f0b80c61fd0824d1a345.png",
     "static/media/fusion_logo.png": "/website/static/media/fusion_logo.92e15b0dbc4520f0c916.png",
     "static/media/SolidWorks-Logo.jpg": "/website/static/media/SolidWorks-Logo.d09bc821fc0c7e5fbe04.jpg",
-    "static/media/mp_proj_plchdr.png": "/website/static/media/mp_proj_plchdr.c39d3a07118bd4a260a6.png",
     "static/media/matlab_logo.gif": "/website/static/media/matlab_logo.1b748654adfd6a6b18d6.gif",
     "static/media/betaflight.png": "/website/static/media/betaflight.fe81f46d1471d1e1846d.png",
     "static/media/Gazebo_logo.png": "/website/static/media/Gazebo_logo.8d105ed8dc6e79e67876.png",
@@ -62,12 +58,12 @@
     "index.html": "/website/index.html",
     "static/media/linkedin-mark.svg": "/website/static/media/linkedin-mark.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/youtube-mark.svg": "/website/static/media/youtube-mark.cb1a56785579560cb80bf1a5dc64c713.svg",
-    "main.b279ac15.css.map": "/website/static/css/main.b279ac15.css.map",
-    "main.4d0b9cd7.js.map": "/website/static/js/main.4d0b9cd7.js.map",
-    "453.41811d64.chunk.js.map": "/website/static/js/453.41811d64.chunk.js.map"
+    "main.28c776c1.css.map": "/website/static/css/main.28c776c1.css.map",
+    "main.215fabce.js.map": "/website/static/js/main.215fabce.js.map",
+    "453.052877a7.chunk.js.map": "/website/static/js/453.052877a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b279ac15.css",
-    "static/js/main.4d0b9cd7.js"
+    "static/css/main.28c776c1.css",
+    "static/js/main.215fabce.js"
   ]
 }
