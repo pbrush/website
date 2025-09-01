@@ -59,7 +59,7 @@ function App() {
         </div>
         <div>
           <p>
-            &copy; 2024 Phillip Brush | Contact: pdbrush33@comcast.net or (978) 831-7440
+            &copy; 2024 Phillip Brush 
             </p>
         </div>
     </div>
